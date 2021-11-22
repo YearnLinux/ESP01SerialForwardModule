@@ -23,8 +23,8 @@
 * ESP01S(3V3)->单片机(3.3V)供电
 
 #### ESP01S 引脚图
-![image](https://gitee.com/yfyun/esp01-serial-forward-module/blob/master/ESP01S.jpg)
+![image](https://gitee.com/yfyun/esp01-serial-forward-module/raw/master/ESP01S.jpg)
 
 #### ESP01S CH340下载器
-![image](https://gitee.com/yfyun/esp01-serial-forward-module/blob/master/DOWNLOAD.jpg)
+![image](https://gitee.com/yfyun/esp01-serial-forward-module/raw/master/DOWNLOAD.jpg)
 
