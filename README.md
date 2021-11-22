@@ -14,7 +14,8 @@
 * 参考文档 1 : https://segmentfault.com/a/1190000017465290
 * 参考文档 2 : https://blog.csdn.net/CCC_122/article/details/97611228
 * ESP8266 环境配置 : https://www.jianshu.com/p/cb0274d612b5
-* 烧录的时候请注意选择的板子类型,选择错误将导致 SPI FLASH 不对, 导致 EEPROM 读写数据时出现问题, 作者选择的是 Generic ESP8266 Module 进行烧录
+* ESP01S 这个板子实际用的芯片是 ESP8266 所以搭建的环境是 ESP8266 的教程一样
+* 烧录的时候请注意选择的板子类型,选择错误将导致 SPI FLASH 不对,导致 EEPROM 读写数据时出现问题,作者选择的是 Generic ESP8266 Module 进行烧录
 
 #### 接线说明
 * ESP01S(RX)->单片机(TX)
@@ -27,4 +28,3 @@
 
 #### ESP01S CH340下载器
 ![image](https://gitee.com/yfyun/esp01-serial-forward-module/raw/master/DOWNLOAD.jpg)
-
