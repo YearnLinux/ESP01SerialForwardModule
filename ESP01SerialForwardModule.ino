@@ -221,6 +221,9 @@ void ResetButton(){
       WiFi.disconnect();
       WiFi.mode(WIFI_STA);
       WiFi.begin("RESETDEV","RESETDEV");
+      eepromWriteStr(0,50,"");
+      eepromWriteStr(51,15,"");
+      eepromWriteStr(67,5,"");
       Serial.println("Reset OK.");
       Serial.println("Rebooting.");
       BlinkLED(0);
